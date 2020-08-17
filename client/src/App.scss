@@ -1,0 +1,236 @@
+a {
+    color: #425A70;
+    text-decoration: none;
+}
+
+button {
+    justify-content: center;
+    display: flex;
+
+    a {
+        width: 100%;
+        color: white;
+
+        &.forgotPassword {
+            color: #425A70;
+        }
+    }
+}
+
+.home-page {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    min-height: calc(100vh - 8px);
+    align-items: center;
+    flex-wrap: wrap;
+
+    .chart-table {
+        display: flex;
+        justify-content: center;
+        height: 400px;
+        width: 50%;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: scale-down;
+        }
+    }
+
+    .intro {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+
+        .start {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+h2 {
+    margin: 10px 0 !important;
+}
+
+.createexpense-page,
+.editexpense-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    min-height: calc(100vh - 39px);
+
+    .createuser-page-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+
+        button {
+            width: 100%;
+            justify-content: center;
+            margin-top: 20px;
+        }
+    }
+}
+
+[role='navigation'] {
+    margin: 5px 0;
+    justify-content: space-between;
+    display: flex;
+    padding: 0 40px;
+
+    .tab-right {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.createuser-page,
+.login-page,
+.track-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    min-height: calc(100vh - 39px);
+
+    .create-user-container,
+    .login-user-container {
+        text-align: center;
+
+        .createuser-page-form,
+        .login-page-form {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin: 20px 0;
+            text-align: left;
+
+            input {
+                margin: 5px 0 10px 0;
+            }
+        }
+    }
+}
+
+.message-container {
+    width: 280px;
+    height: 50px;
+}
+
+.select-label-container {
+    display: flex;
+    flex-direction: column;
+
+    .select-label {
+        color: #425A70;
+        font-size: 14px;
+        letter-spacing: -0.05px;
+        margin-bottom: 5px;
+        font-weight: 500;
+    }
+}
+
+.notlogged-page {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    >span {
+        margin-bottom: 10px;
+    }
+}
+
+.chart-table-page {
+    margin: 0 40px;
+
+    .display-page {
+        opacity: 1;
+        transition: opacity 10s linear;
+
+        &.show {
+            opacity: 1;
+        }
+    }
+
+    ;
+
+    a {
+        color: #425A70;
+    }
+
+    .table {
+        text-align: left;
+        margin: 40px 0;
+
+        table {
+            color: #616161;
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+
+            td,
+            th {
+                padding: 10px 20px 10px 10px !important;
+            }
+
+            thead {
+                tr {
+                    background-color: #B7C8FF;
+
+                }
+            }
+
+            tbody {
+                tr {
+                    border-bottom: 1px solid #9e9e9e;
+                }
+            }
+
+            th {
+                font-size: 15px;
+            }
+
+            tr {
+
+                td:last-child,
+                td:nth-last-child(2) {
+                    padding: 2px !important;
+                    text-align: center;
+                    width: 80px;
+                }
+            }
+        }
+    }
+}
+
+.charts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    .chart-container {
+        margin: 20px;
+    }
+}
+
+.nodata-page {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+    button {
+        a {
+            color: white;
+        }
+    }
+}
